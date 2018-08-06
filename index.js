@@ -3,5 +3,6 @@ $(document).ready(function (){
 
 function searchRepositories() {
   const req = newXMLHttpRequest();
-  req.addEventListener("load", displayResults)
+  req.addEventListener("load", displayResults);
+  
 }
