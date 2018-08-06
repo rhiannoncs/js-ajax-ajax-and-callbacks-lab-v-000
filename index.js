@@ -2,5 +2,5 @@ $(document).ready(function (){
 });
 
 function searchRepositories() {
-  const req = newXMLHttpRequest;
+  const req = newXMLHttpRequest();
 }
