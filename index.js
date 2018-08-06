@@ -9,6 +9,6 @@ function searchRepositories() {
   req.send();
 }
 
-function displayResults() {
+function displayResults(event, data) {
   
 }
