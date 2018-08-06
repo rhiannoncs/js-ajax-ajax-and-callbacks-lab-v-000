@@ -8,3 +8,7 @@ function searchRepositories() {
   req.open("GET", `https://api.github.com/search/repositories?q=${searchTerms}`);
   req.send();
 }
+
+function displayResults() {
+  
+}
