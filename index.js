@@ -10,5 +10,5 @@ function searchRepositories() {
 }
 
 function displayResults(event, data) {
-  const repos = JSON.parse(this.responseText)
+  const repos = JSON.parse(this.responseText);
 }
