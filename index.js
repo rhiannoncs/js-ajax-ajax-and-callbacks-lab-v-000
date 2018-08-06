@@ -6,4 +6,5 @@ function searchRepositories() {
   var searchTerms = document.getElementById("searchTerms").value;
   req.addEventListener("load", displayResults);
   req.open("GET", `https://api.github.com/search/repositories?q=${searchTerms}`);
+  req.send;
 }
