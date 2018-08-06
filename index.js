@@ -11,5 +11,5 @@ function searchRepositories() {
 
 function displayResults(event, data) {
   const repos = JSON.parse(this.responseText);
-  const resultsTemplate = Handlebars.compile(document.getElementById(""))
+  const resultsTemplate = Handlebars.compile(document.getElementById("results-template"))
 }
